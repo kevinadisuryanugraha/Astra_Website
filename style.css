@@ -1,0 +1,463 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container .page_1 {
+    background: linear-gradient(35deg, rgb(6, 0, 151) 0%, rgb(130, 4, 255) 73%, rgb(193, 15, 255) 100%);
+    height: auto;
+    padding-bottom: 3rem;
+}
+
+.container .page_1 .nav {
+    display: flex;
+    justify-content: end;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+    position: relative;
+}
+
+.container .page_1 .nav nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.container .page_1 .nav nav ul li {
+    margin-right: 5px;
+    padding: 0px 10px;
+}
+
+.container .page_1 .nav nav ul li a {
+    line-height: 3em;
+    font-size: 17px;
+    text-decoration: none;
+    color: #bfbdbd;
+    transition: 0.3s ease-in-out;
+}
+
+.container .page_1 .nav nav ul li a:hover {
+    color: #fff;
+}
+
+.container .page_1 .content_1 {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.container .page_1 .content_1 .bagian_1 {
+    max-width: 600px;
+}
+
+.container .page_1 .content_1 .bagian_1 h1 {
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.container .page_1 .content_1 .bagian_1 p {
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+.container .page_1 .content_1 .bagian_1 a,
+.container .page_5 .content_1 .content a
+{
+    padding: 30px 40px;
+    background-color: #e6ae4f;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+    color: #333;
+}
+
+.container .page_1 .content_1 .bagian_1 a:hover,
+.container .page_5 .content_1 .content a:hover {
+    background-color: #ca8d24;
+}
+
+.container .page_2 .content_1 {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+
+.container .page_2 .content_1 .semua-kategori,
+.container .page_4 .content_1 .semua-kategori
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+}
+
+.container .page_2 .content_1 .semua-kategori .kategori {
+    max-width: 280px;
+}
+
+.container .page_2 .content_1 .semua-kategori .kategori p {
+    line-height: 1.6em;
+    color: #777;
+}
+
+.container .page_2 .content_1 .semua-kategori .kategori h3 {
+    color: #333;
+}
+
+.container .page_2 .content_1 h2,
+.container .page_4 .content_1 h2
+{
+    font-size: 2.6666666666667rem;
+    font-weight: 600;
+}
+
+.container .page_2 .card {
+    max-width: 380px;
+    margin-top: -5rem;
+}
+
+.container .page_2 .card h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.container .page_2 .card p {
+    line-height: 2em;
+    color: #777;
+}
+
+.container .page_2 .card img {
+    width: 100%;
+}
+
+.container .page_2 #content_2 {
+    margin-top: -5rem;
+}
+
+.container .page_2 #content_3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .page_2 #content_3 .bagian_1 {
+    max-width: 450px;
+}
+
+.container .page_2 #content_3 .bagian_1 h2 {
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+.container .page_2 #content_3 .bagian_1 p {
+    line-height: 2em;
+    font-size: 18px;
+    color: #777;
+}
+
+.container .page_3 {
+    background-color: #fdf7ff;
+}
+
+.container .page_3 .quotes {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 5rem;
+}
+
+.container .page_3 .quotes p {
+    font-size: 25px;
+    color: #777;
+}
+
+.container .page_3 .quotes .title {
+    color: #666;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.container .page_4 .content_1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 4rem 0px;
+}
+
+.container .page_4 .content_1 .semua-kategori {
+    padding: 10px;
+}
+
+.container .page_4 .content_1 .semua-kategori .card {
+    max-width: 350px;
+    color: #777;
+}
+
+.container .page_4 .content_1 .semua-kategori .card h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 15px;
+}
+
+.container .page_4 .content_1 .semua-kategori .card p {
+    line-height: 1.6em;
+    font-size: 20px;
+    margin-top: -1rem;
+}
+
+.container .page_5 {
+    background: linear-gradient(35deg, rgb(6, 0, 151) 0%, rgb(130, 4, 255) 73%, rgb(193, 15, 255) 100%);
+}
+
+.container .page_5 .content_1 {
+    max-width: 1200px;
+    margin: auto;
+    padding: 5rem 0;
+}
+
+.container .page_5 .content_1 .content {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.container .page_5 .content_1 .content h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
+.container .page_6 .content_1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container .page_6 .content_1 .content {
+    margin: 4rem 0;
+}
+
+.container .page_6 .content_1 .content h3 {
+    font-weight: 500;
+    font-size: 25px;
+    color: #333;
+    margin-top: -1rem;
+}
+
+.container .page_6 .content_1 .content p {
+    font-size: 17px;
+    padding-top: 15px;
+    color: #666;
+}
+
+.container .page_6 .content_1 .content a,
+.container .footer .content_1 .content a
+{
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.container .page_6 .content_1 .content a:hover,
+.container .footer .content_1 .content a:hover {
+    color: #b01ce1;
+}
+
+.container .footer {
+    background-color: #f0ecec;
+    height: auto;
+}
+
+.container .footer .content_1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container .footer .content_1 .content {
+    padding: 3rem 0;
+}
+
+.container .footer .content_1 .content p {
+    text-align: center;
+    color: #777;
+    margin-top: -1rem;
+    font-size: 20px;
+}
+
+
+
+/* Ini buat responsive navigasi */
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#menu-toggle:checked + .menu-icon + nav {
+    display: block;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .menu-icon {
+        display: block;
+    }
+    
+    .nav nav {
+        display: none;
+        width: 100%;
+        background-color: #333;
+        position: absolute;
+        top: 60px; /* Sesuaikan dengan tinggi nav */
+        left: 0;
+        z-index: 1000;
+    }
+
+    .nav nav ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav nav ul li {
+        margin: 0;
+        border-bottom: 1px solid #444;
+    }
+
+    .nav nav ul li a {
+        padding: 15px;
+        display: block;
+        color: #fff;
+    }
+
+    /* Tampilkan menu navigasi ketika checkbox di-check */
+    #menu-toggle:checked + .menu-icon + nav {
+        display: block;
+    }
+
+
+    .container .page_1 .content_1
+    {
+        display: inline;
+    }
+
+    .container .page_1 .nav nav {
+        display: none;
+    }
+
+    .container .page_1 .content_1 .bagian_1, 
+    .container .page_1 .content_1 .bagian_2 {
+        max-width: 550px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 5rem;
+    }
+
+    .container .page_1 .content_1 .bagian_2 img {
+        max-width: 300px;
+    }
+
+    .container .page_2 .content_1 {
+        max-width: 550px;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .container .page_2 .content_1 #semua-kategori-1 {
+        text-align: center;
+        display: flex;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .container .page_2 .content_1 .semua-kategori .kategori {
+        margin-bottom: 4rem;
+    }
+
+    .container .page_2 .content_1 .semua-kategori .card_kategori {
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: 2rem;
+        padding: 1rem;
+    }
+
+    .container .page_2 #content_2 {
+        margin-top: 5rem;
+    }
+    
+    .container .page_2 #content_2 #semua-kategori-2,
+    .container .page_2 #content_3,
+    .container .page_4 .content_1 .semua-kategori
+    {
+        display: inline-block;
+    }
+
+    .container .page_2 #content_2,
+    .container .page_2 #content_3,
+    .container .page_4 .content_1,
+    .container .page_6 .content_1
+    {
+        padding: 2rem;
+    }
+
+    .container .page_2 #content_2 #semua-kategori-2 .card {
+        margin-bottom: 10rem;
+    }
+
+    .container .page_2 #content_3 .bagian_1
+    {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .container .page_2 #content_3 {
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    .container .page_2 #content_3 .bagian_2 {
+        height: auto;
+    }
+
+
+    .container .page_4 .content_1 .semua-kategori .card {
+        margin-bottom: 4rem;
+    }
+
+    .container .page_6 .content_1 {
+        max-width: 550px;
+        margin: auto;
+    }
+}
+
